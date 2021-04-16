@@ -1,0 +1,26 @@
+{
+  "name": "dhedge-public-bot",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions --project test-bot-jh",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "dhedge-sdk": "0.0.8",
+    "firebase-admin": "^9.6.0",
+    "firebase-functions": "^3.13.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^14.14.31",
+    "tslint": "^5.12.0",
+    "typescript": "^3.9.7"
+  },
+  "private": true
+}

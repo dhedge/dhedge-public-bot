@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "skipLibCheck": true,
+    "lib": ["es2019"],
+    "typeRoots": ["./typings", "./node_modules/@types/"],
+    "noImplicitAny": false
+  },
+  "compileOnSave": true,
+  "include": ["src", "typings"]
+}
