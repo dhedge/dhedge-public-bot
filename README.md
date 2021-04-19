@@ -40,7 +40,7 @@ This is the endpoint to buy ETH worth of 100.99 USD:
 
 Follow these [instructions](https://www.tradingview.com/support/solutions/43000595315-how-to-set-up-alerts/) to set up alerts in Tradingview.
 
-Use alert action [Werbhook](https://www.tradingview.com/support/solutions/43000529348-about-webhooks/) and copy the executeTrade endpoint from above.
+Use alert action [Webhook](https://www.tradingview.com/support/solutions/43000529348-about-webhooks/) and copy the executeTrade endpoint from above.
 
 #### Example set up for a sell order of 0.001 ETH when ETH price goes below $2350
 <span>
