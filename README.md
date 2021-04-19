@@ -8,7 +8,7 @@ Clone this repo and copy one of the `.env.Example` files into `.env` and prefi
 
 In the functions folder install the dependencies with `npm i`
 
-Create a [Google Firebase](https://firebase.google.com) project
+Create a [Google Firebase](https://firebase.google.com) project. Make sure to select the Blaze (Pay as you go) plan.
 
 Install the [Firebase CLI](https://firebase.google.com/docs/cli)
 
@@ -35,3 +35,11 @@ This is the endpoint to buy ETH worth of 100.99 USD:
 ## Use Cases
 
 ### Stop Loss Order
+
+#### Setting up Stop Loss alerts in Tradinview
+
+Follow these [instructions](https://www.tradingview.com/support/solutions/43000595315-how-to-set-up-alerts/) to set up alerts in Tradingview
+
+Use alert action [Werbhook](https://www.tradingview.com/support/solutions/43000529348-about-webhooks/) and copy the executeTrade endpoint from above.
+
+#### Example set up for a sell order of 0.001 ETH when ETH price goes below $2350

@@ -4,7 +4,7 @@
     "lint": "tslint --project tsconfig.json",
     "build": "tsc",
     "serve": "npm run build && firebase emulators:start --only functions",
-    "deploy": "firebase deploy --only functions --project test-bot-jh",
+    "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log"
   },
   "engines": {
